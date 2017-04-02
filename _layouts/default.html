@@ -8,12 +8,18 @@
 </head>
 
 <body>
-    {% include header.html %}
-    <div id="Blogbody" class="Hilight">
-        {{content}} 
+    <header>
+        <div id="name">
+            <a id="nameText" href="mlinsider.com">ML Insider</a>
+        </div>
+        <div id="lineContainer"></div>
+    </header>
 
+    
+    <div id="Blogbody" class="Hilight">
+        {{content}}
     </div>
-        {% include footer.html %}
+    {% include footer.html %}
 </body>
 
 </html>
