@@ -1,0 +1,3 @@
+markdown: redcarpet
+baseurl: /ml_insider
+exclude: ['README.md']
