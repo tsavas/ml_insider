@@ -3,7 +3,9 @@ layout: default
 ---
 
 <ul>
-<li>one</li>
-<li>two</li>
-<li>three</li>
+    {% for blog in site.posts %}
+    <li>
+        {{blog}}
+    </li>
+    {% endfor %}
 </ul>
