@@ -5,7 +5,9 @@ layout: default
 <ul>
     {% for blog in site.posts %}
     <li>
+        <h2>{{blog.title}}</h2>
         {{blog}}
     </li>
     {% endfor %}
 </ul>
+
