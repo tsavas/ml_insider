@@ -89,6 +89,11 @@ li {
 	padding: 20px 0px 20px 0px;
 }
 
+body {
+	background-color: black;
+	text-decoration-color: white;
+}
+
 #lineContainer {
     position: fixed;
     width: 98%;
@@ -102,6 +107,7 @@ li {
 #Blogbody {
     text-align: left;
     font-family: Helvetica-bold;
+    color: white;
     position: relative;
     top: 120px;
     /* <–––––––––––––––––––––––This is what you used to change top spacing*/
