@@ -127,7 +127,7 @@ body {
 }
 
 #Blogbody h2 {
-    color: black;
+    color: white;
     font-family: Helvetica-bold;
     font-style: normal;
     font-variant-ligatures: normal;
@@ -146,16 +146,16 @@ body {
 }
 
 .Hilight a {
-    color: #000;
+    color: white;
     text-decoration: none;
 }
 
 .Hilight a:hover {
-    color: #999;
+    color: white;
 }
 
 .Hilight a:active {
-    color: #FFF;
+    color: white;
 }
 
 #nameText {
