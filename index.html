@@ -1,12 +1,28 @@
---- 
-layout: default 
----
+<!DOCTYPE html>
+<html>
 
-<ul>
-    {% for post in site.posts %}
-    <li>
-        <h2>{{post.title}}</h2>
-        {{post}}
-    </li>
-    {% endfor %}
-</ul>
+<head>
+    <meta charset="UTF-8">
+    <title>ml insider</title>
+    <link rel="stylesheet" type="text/css" href="http://mlinsider.com/css/stylesheet.css">
+</head>
+
+<body>
+    <header>
+        <div id="name">
+            <a id="nameText" href="mlinsider.com">ML Insider</a>
+        </div>
+        <div id="lineContainer"></div>
+    </header>
+    <div id="Blogbody" class="Hilight">
+        <ul>
+            {% for post in site.posts %}
+            <li>
+                <h2>{{post.title}}</h2> {{post}}
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+
+</html>
